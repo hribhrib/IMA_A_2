@@ -10,10 +10,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Please insert Name"
+        android:hint="Please insert Name"
         android:imeActionId="100"
         android:imeOptions="actionDone"
+        android:inputType="textPersonName"
 
 
         />
