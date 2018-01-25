@@ -12,8 +12,6 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import java.security.Key;
-
 public class MainActivity extends AppCompatActivity {
 
     EditText input;
@@ -92,7 +90,6 @@ public class MainActivity extends AppCompatActivity {
     };
 
     private void launchAnimationActivity(String str) {
-
         Intent intent = new Intent(this, AnimationActivity.class);
         intent.putExtra("String", str);
         startActivity(intent);
